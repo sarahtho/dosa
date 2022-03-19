@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+         header{
+        background-color:rgb(243, 240, 235); 
+        height: 130px;
+        width: 100%;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        width: 100%; 
+        flex: wrap;
+    }
+    a{
+     color:#bc482f;
+     font-size: 16px;   
+     text-transform: uppercase;
+     padding: 5px;
+     text-decoration: none;
+    }
+    .header-div{
+        display: flex;
+    }
+    .image-div{
+        margin-left: 240px;
+        width: 30%;
+    }
+    .nav-bar{
+        width: 70%;
+    }
+    li{
+        width: 110px;
+        text-align: center;
+        margin-top: 90px;
+    }
+    .contact{
+        height: 20px;
+    }
+    #div1{
+        background:rgb(243, 240, 235);
+        width: 500px;
+        height: 370px;
+        border: solid lightgray 1px;
+        margin-left: 215px;
+    }
+    .titles{
+        color: gray;
+    }
+    h3{
+        color: #5a3320;
+        margin-left: 215px;
+    }
+    .contact{
+        height: 30px;
+        margin-left: 10px;
+    }
+    #message{
+        margin-left: 10px;
+        width: 470px;
+        height: 60px;
+    }
+    #button{
+        height: 30px;
+        width: 60px;
+        margin-left: 10px;
+    }
+    #container{
+        display: flex;
+        flex-direction: row;
+        margin-left: 215px;
+    }
+    .forms{
+        background-color:rgb(243, 240, 235);
+        border: solid lightgray 1px;
+    } 
+    #contact-us{
+        margin-left: 215px;
+        color: gray;
+    }
+    .info{
+        margin-left: 10px;
+    }
+</style>
+<body>
+    <header> 
+        <div class="header-div">
+             <div class="image-div">
+                <a href="index.html"> <img src="logo.png"> </a>
+             </div>
+             <div class="nav-bar">
+                 <nav>
+                     <ul>
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="catering.html"> Catering </a></li>
+                        <li><a href="locations.html"> Locations </a></li>
+                        <li><a href="about us.html"> About us </a></li>
+                        <li><a href="contact.html"> Contact Us </a></li>
+                        <li><a href="order now.html"> Order Now </a></li>
+                     </ul>
+                 </nav>
+             </div>
+        </div>
+     </header>
+     <h3> Home/Contact Us </h3>
+     <h2 id="contact-us"> CONTACT US </h2>
+    <div id="container">
+        <div class="forms" class="contact-form"> 
+            <form>
+                <label class="contact"> Your Name * </label>
+                <br/>
+                <input type="text" class="contact">
+                <br/>
+                <br/>
+                <label class="contact"> Your Phone * </label>
+                <br/>
+                <input type="text" class="contact">
+                <br/>
+                <br/>
+                <label class="contact"> Your Email * </label>
+                <br/>
+                <input type="email" class="contact">
+                <br/>
+                <br/>
+                <label class="contact"> Your Message * </label>
+                <br/>
+                <input type="text" id="message">
+                <br/>
+                <br/>
+                <input type="submit" id="button">
+            </form>    
+        </div>
+        <div class="info"> 
+            <h2 class="titles"> Dosa Inc Foods Pvt. Ltd. </h2>
+            <p> Delhi | Gurgaon </p>
+            <p> +91 9211188877 </p>
+            <p> Info@Dosainc.In </p>
+            <p> Monday - Sunday 10 AM - 8 PM </p>
+            <br/>
+            <h2 class="titles"> CATERING QUERIES </h2> 
+            <p> +91 9971662239 </p>
+            <p> Satya.Koniki@Dosainc.In </p>
+        </div>
+    </div>
+</body>
+</html>
